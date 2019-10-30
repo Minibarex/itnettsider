@@ -2,57 +2,74 @@
 <html lang='no'>
     <head>
         <meta charset='utf-8'>
-        <title>Norgesflagg</title>
+        <title>Norgesflagget</title>
         <style>
             body{
-                max-width: 132vh;
-                max-height: 96vh;
-                display: grid;
-                margin: 1.5vh auto;
-                grid-template-columns: 6fr 1fr 2fr 1fr 12fr;
-                grid-template-rows: 6fr 1fr 2fr 1fr 6fr;
-                border: 0.5vh solid black;
+                margin: 40px auto;
+                max-width: 650px;
+                line-height: 1.6;
+                font-size: 18px;
+                color: #363636;
+                padding: 0 10px;
+                display:grid;
+                grid-template-columns: 650px;
+                grid-template-rows: 1fr 3fr 1fr;
+                max-height:85vh;
+                font-family: sans-serif;
             }
-            div{
-                min-height: 6vh;
-                min-width: 6vh;
+            /*
+            *{
+                border: 2px dotted black;
             }
-            #red{
-                background-color:#BA122B;
+            */
+            body>header>h1>a{
+                font-size: 50px;
+                text-decoration: none;
+                color:#363636;
             }
-            #blue{
-                background-color: #00205B;
+            body>header>h1>a:hover{
+                color:blue;
             }
-            #white{
-                background-color: white;
+            body>header>h1,h2{
+                text-align: center;
+            }
+            body>main>div>a{
+                font-size: 20px;
+                text-decoration: none;
+                color: #363636;
+                font-weight: bold;
+            }
+            .center-align{
+                text-align: center;
+            }
+
+            body>main>div>a:hover{
+                color:blue;
+            }
+            footer{
+                font-size: 12px;
+                text-align: center;
+            }
+            main{
+                border: 2px solid;
+                padding: 10px;
+                margin: 10px;
             }
         </style>
     </head>
-    <body>    
-        <div id='red'></div>
-        <div id='white'></div>
-        <div id='blue'></div>
-        <div id='white'></div>
-        <div id='red'></div>
-        <div id='white'></div>
-        <div id='white'></div>
-        <div id='blue'></div>
-        <div id='white'></div>
-        <div id='white'></div>
-        <div id='blue'></div>
-        <div id='blue'></div>
-        <div id='blue'></div>
-        <div id='blue'></div>
-        <div id='blue'></div>
-        <div id='white'></div>
-        <div id='white'></div>
-        <div id='blue'></div>
-        <div id='white'></div>
-        <div id='white'></div>
-        <div id='red'></div>
-        <div id='white'></div>
-        <div id='blue'></div>
-        <div id='white'></div>
-        <div id='red'></div>
+    <body>
+        <header>
+            <h1><a href='..\..\index.html'>Minibarex</a></h1>
+            <h2>Norgesflagg laget i HTML og CSS</h2>
+        </header>
+        <main>
+            <p>Her kan du se et Norgeslagg som er laget med kun HTML kode og CSS kode. Det et er ikke et bilde, kun kode. Flagget endrer dynamisk størrelse etter nettelservinduet.</p>
+            <div class='center-align'>
+                <a href='.\norgesflagg.html'>Trykk her for å se Norgesflagget</a>
+            </div>
+        </main>
+        <footer>
+            <p>© Minibarex 2019. All rights reserved</p>
+        </footer>
     </body>
 </html>

@@ -1,0 +1,5 @@
+bilde1: https://www.pexels.com/photo/red-strawberries-fruit-royalty-free-70746/
+bilde2: https://www.pexels.com/photo/broccoli-close-up-colors-edible-76083/
+bilde3: https://www.pexels.com/photo/fill-the-frame-photography-of-carrots-1297256/
+bilde4: https://www.pexels.com/photo/fried-potatoes-1583884/
+bilde5: https://www.pexels.com/photo/pile-of-avocado-fruits-3029520/
